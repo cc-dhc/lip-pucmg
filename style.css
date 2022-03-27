@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #232323;
+    color: #DEDEDE;
+}
+
+:any-link {
+    font-weight: bold;
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+:any-link:hover {
+    color: #FFA500;
+}
+
+.navbar {
+    background-color: #000;
+    height: 50px;
+}
+
+.main {
+    padding: 40px;
+}
