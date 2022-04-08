@@ -8,8 +8,23 @@ body {
 }
 
 aside {
-    width: 200px;
+    width: 100%;
     background-color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-section {
+    display: flex;
+}
+
+.card {
+    color: #757575;
+    min-height: 200px;
+    max-height: 300px;
 }
 
 .title,
